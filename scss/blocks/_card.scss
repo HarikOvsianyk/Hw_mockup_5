@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+    &__item {
+        display: flex;
+        padding: 10px;
+        flex-basis: calc(100% / 3);
+    }
+}
+
+.card {
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    &:hover {
+        box-shadow: 0 0 20px grey;
+    }
+}

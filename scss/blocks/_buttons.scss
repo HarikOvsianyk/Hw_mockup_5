@@ -1,0 +1,14 @@
+.btn {
+    display: inline-block;
+    padding: $btn-padding;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    background: $blue;
+    color: $white;
+    border-radius: $btn-border-radius;
+    text-decoration: none;
+    transition: $btn-transition;
+    &:hover {
+        background:$red;
+    }
+}
